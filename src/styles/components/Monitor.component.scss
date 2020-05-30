@@ -1,0 +1,68 @@
+.monitor {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239,239,245);
+    padding: 3vw;
+    color: #041a5c;
+ 
+    &__speedometer {
+        display: flex;
+        justify-content: center;
+    }
+    &__title {
+        color: #041a5c;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+   
+    
+    &__card {
+        background-color: rgb(255,255,255);
+        border: 1px solid rgb(235, 235, 240);
+        border-radius: 8px;
+        padding-top: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__bpm-rate {
+        font-size: 28px;
+        text-align: end;
+       transform: translate(-60px, -50px);
+        font-weight: 600;
+        color: #0031bf;
+    }
+
+    &__heart-icon-end {
+       align-items: center;
+       width: 100% !important;
+       color: #2c54c9;
+       height: 22.3rem !important;
+        padding: 4px;
+       transition: all 1s ;
+    }
+
+     &__heart-icon-start {
+        align-items: center;
+        width: 100% !important;
+        color: #0031bf;
+        height: 22.5rem !important;
+        transition: all 1s;
+     }
+
+     &__heart-icon-dull {
+        align-items: center;
+        width: 100% !important;
+        color: rgb(60,60,60);
+        transition: all 1s ease-in;
+     }
+}
