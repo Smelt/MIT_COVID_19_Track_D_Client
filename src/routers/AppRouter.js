@@ -7,6 +7,7 @@ import Dashboard from '../containers/Dashboard';
 import Monitor from '../containers/Monitor';
 import theme from '../styles/theme';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { useLocation } from 'react-router-dom';
 
 
@@ -29,9 +30,11 @@ class AppRouter extends React.Component {
                 <Route exact={true} path="/Monitor" component={Monitor}/>
                 <Route exact={true} path="/Dashboard" component={Dashboard}/>
                 <Route exact={true} path="/" component={Splash} />
+               
               </Switch>
           </ThemeProvider>
         </React.Fragment>
+        <Footer/>
        </BrowserRouter>
     );
   }
