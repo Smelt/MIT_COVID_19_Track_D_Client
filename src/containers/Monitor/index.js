@@ -6,6 +6,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 import ReactSpeedometer from "react-d3-speedometer"
 import { mdiHeartPulse, mdiHeart, mdiLungs } from '@mdi/js';
 import Icon from '@mdi/react';
+import Audio from './Audio'
 
 class Monitor extends React.Component {
 
@@ -58,7 +59,7 @@ class Monitor extends React.Component {
                     <div className="monitor__card">
                         <h4 className="monitor__title">Coughing Audio</h4>
                         <div className="monitor__audio">
-                            
+                            <Audio/>
                         </div>
                     </div>
 

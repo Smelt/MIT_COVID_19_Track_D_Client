@@ -91,4 +91,13 @@
         color: rgb(60,60,60);
         transition: all 1s ease-in;
      }
+
+     &__audio {
+
+        &-canvas {
+            width: 80vw;
+            height: 60%;
+            ;
+        }
+     }
 }
