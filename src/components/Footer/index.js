@@ -39,6 +39,9 @@ class Footer extends Component {
             case 2: 
                 route="/Monitor";
                 break;
+            case 3:
+                route="/Metrics";
+                break;
             default: 
                 route="/";
                 break;
@@ -61,7 +64,7 @@ class Footer extends Component {
      
       <BottomNavigationAction label="Reports" icon={<AssessmentIcon />} />
       <BottomNavigationAction to="/Monitor" label="Monitor" icon={<HearingIcon />} />
-      <BottomNavigationAction label="Settings" icon={<SettingsIcon />} />
+      <BottomNavigationAction to="/Metrics" icon={<SettingsIcon />} />
     </BottomNavigation>
         )
     }

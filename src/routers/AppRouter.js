@@ -5,6 +5,7 @@ import { CssBaseline, Typography } from '@material-ui/core'
 import Splash from '../containers/Splash';
 import Dashboard from '../containers/Dashboard';
 import Monitor from '../containers/Monitor';
+import Metrics from '../containers/Metrics';
 import theme from '../styles/theme';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -29,6 +30,7 @@ class AppRouter extends React.Component {
               <Switch>
                 <Route exact={true} path="/Monitor" component={Monitor}/>
                 <Route exact={true} path="/Dashboard" component={Dashboard}/>
+                <Route exact={true} path="/Metrics" component={Metrics} />
                 <Route exact={true} path="/" component={Splash} />
                
               </Switch>
