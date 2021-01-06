@@ -17,7 +17,7 @@
     "@material-ui/styles": "^4.9.14",
     "@mdi/js": "^5.2.45",
     "@mdi/react": "^1.4.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
